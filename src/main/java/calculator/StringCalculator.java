@@ -24,6 +24,11 @@ class StringCalculator {
     private static String[] splitNumbers(String numbers, String divider){
 	    return numbers.split(divider);
 	}
+    
+    private static String[] MulNumbers(String numbers, int numbers1){
+	    return numbers.MulNumbers(numbers1);
+	}
+    
     private static int sum(String[] numbers){
  	    int total = 0;
  	    String negString = "";
@@ -44,6 +49,9 @@ class StringCalculator {
 		}
 
 		return;
+		
+		if(MulNumbers.equals(String))
+			multiply = 
     }
 
 }
